@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 23px;
+    font-style:Arial,Verdana,sans-serif;   
+}
+
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    justify-content:center;
+}
+
+
+.logo{
+    position: absolute;
+   bottom: 10px;
+    height: 250px;
+    left: 40px;
+    
+   
+}
+
+.nav-one{
+    
+    font: 12px/20px D-DIN-Regular,Arial,Verdana,sans-serif;
+    word-spacing: 28px;
+    margin-left: 10px;
+    font-weight: 400;
+    
+}
+.nav-one, .shop-item{
+    margin-top: 40px;
+}
+.nav-one a{
+    color: white;
+}
+.nav-one a:hover{
+    text-decoration: underline;
+}
+.shop-item{
+    font: 13px/20px D-DIN-Regular,Arial,Verdana,sans-serif;
+    display: flex;
+    justify-content:right;
+    position: absolute;
+    right: 100px;
+}
+.shop a{
+color: white;
+   
+}
+.shop a:hover{
+    text-decoration: underline;
+}
+.shop-icon{
+    
+    position: absolute;
+    left: 70px;
+}
+.icon{
+    width: 19px;
+}
+.first-layout, .second-layout, .third-layout, .fourth-layout{
+    height: 657px;
+}
+
+
+.background-one{
+    width: 400px;
+    position: absolute;
+    top: 400px;
+    left: 70px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-one h3{
+   
+    display: flex;
+    position: absolute;
+    bottom: 110px;
+
+}
+
+
+.background-two {
+    width: 500px;
+    position: absolute;
+    top: 1000px;
+    left: 70px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-two h3{
+    
+    position: absolute;
+    bottom: 110px;
+    
+}
+
+.background-three{
+    width: 500px;
+    position: absolute;
+    top: 1700px;
+    left: 70px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-four{
+    width: 500px;
+    position: absolute;
+    top: 2300px;
+    left: 70px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer{
+    
+    width: 100%;
+    height: 100px;
+    background-color:black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+}
+
+.footer-list{
+    font-size: 10px;
+    word-spacing: 28px;
+    
+}
+.footer-list, .footer-list a{
+    color: white;
+}
+
+.footer-list a:hover{
+    color: #979797;
+}
+a{
+    text-decoration: none;
+}
+
+/* Buttons & Hover EFFECTs */
+
+button{
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+
